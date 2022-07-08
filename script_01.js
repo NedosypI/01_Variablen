@@ -36,8 +36,40 @@
 // JS ist eine untypisierte Sprache|untyped|
 // wir können hier ohne Probleme Datentypen austauschen
 
-let test;
-test = "Wazup";
-test = 2; // das 1.test wurde mit dem 2. überschrieben 
-test = true;
+// let test;
+// test = "Wazup";
+// test = 2; // das 1.test wurde mit dem 2. überschrieben 
+// test = true;
 
+
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+
+/***** 03a Konstanten *****/
+
+// const test = "Du schon wieder"; //Variable mit KONSTANTEM inhalt
+// test = "Wazup"; // Keine neue Zuweisung zur LZ möglich!-> Fehler
+// console.log( test);
+
+/***** 04 Beispiel *****/
+
+// Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+let date = new Date(); // Date = Klasse (grossgeschrieben)
+let year = new Date().getFullYear();
+console.log(year);
+
+//Wertzuweisung
+ageJohn = 25;
+ageMark = 30;
+
+// Berechnung
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+// Ausgabe
+console.log("birthYearJohn: " + birthYearJohn);
+console.log("birthYearMark: " + birthYearMark);
