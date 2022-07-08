@@ -41,6 +41,3 @@ test = "Wazup";
 test = 2; // das 1.test wurde mit dem 2. überschrieben 
 test = true;
 
-
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
