@@ -10,4 +10,8 @@
 
 // Zeilen-Kommentar
 
-console.log("Was geht");
+// Konsole-Ausgaben
+// console.log("Was geht");
+// console.log(firstName);
+
+/***** 02 Deklaration + Wertzuweisung *****/
